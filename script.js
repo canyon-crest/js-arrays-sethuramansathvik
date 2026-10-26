@@ -93,3 +93,10 @@ console.log("Even count: "+numOfEvens);
 //         Start with the first number as the largest.
 //         Loop through the rest and update if you find a bigger one.
 //         Print: console.log("Largest: " + largest)
+let largest = numbers[0];
+for (let i = 0; i<=4; i++) {
+    if (numbers[i]>largest) {
+        largest = numbers[i];
+    }
+}
+console.log("Largest: "+largest);
